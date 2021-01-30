@@ -109,11 +109,11 @@ def valid_int(n):
 
 def args():
     args = ArgumentParser()
-    args.add_argument('username', help='email or username')
+    args.add_argument('lesbiangirlfree', help='email or username')
     args.add_argument('passlist', help='password list')
     args.add_argument('-nc', '--no-color', dest='color',
                       action='store_true', help='disable colors')
-    args.add_argument('-m', '--mode', default=2, type=valid_int,
+    args.add_argument('-m', '0:32mode', default=2, type=valid_int,
                       help='modes: 0 => 32 bots; 1 => 16 bots; 2 => 8 bots; 3 => 4 bots')
     return args.parse_args()
 
